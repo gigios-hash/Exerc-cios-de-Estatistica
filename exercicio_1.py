@@ -16,7 +16,7 @@ Exercício 1.
 import pandas as pd
 import matplotlib.pyplot as plt
 
-tabela = pd.read_excel('C:/Users/GiovanniNascimento/OneDrive - ASMODEE GROUP/Área de Trabalho/MBA_USP/1-Semestre/3-Introdução à Programação com Python I/Exercícios de Estatistica/exercicio_1.xlsx')
+tabela = pd.read_excel('exercicio_1.xlsx')
 
 tabela_organizada = tabela.sort_values(by='Renda (R$)',ascending=True)
 
